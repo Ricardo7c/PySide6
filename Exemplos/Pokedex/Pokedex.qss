@@ -1,0 +1,32 @@
+QWidget {
+    background-color: #080e21;
+    font-size: 20pt;
+    font-family: Alkatra, Bold;
+    color: rgb(255, 255, 255);
+}
+#botao {
+    background-color: #4b6bd6;
+}
+#botao:pressed {
+    background-color: #2c3e7d;
+}
+QPushButton {
+    border-style: outset;
+    border-radius: 15px;
+    border-color: rgb(13, 13, 13);
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+}
+QPushButton:pressed {
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    padding-top: 0.2%;
+}
+QLineEdit {
+    max-height: 40px;
+}
+#Habilidades {
+    font-size: 18px;
+}

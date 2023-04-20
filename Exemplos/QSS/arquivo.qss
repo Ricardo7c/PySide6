@@ -1,0 +1,51 @@
+QWidget {
+    background-color: rgb(55, 53, 69);
+    font-size: 25pt;
+    font-family: Alkatra, Bold;
+    color: azure;
+    
+}
+
+#caixa_texto{
+    border-radius: 15px;
+}
+
+
+QPushButton {
+    border-style: outset;
+    border-radius: 15px;
+    border-color: rgb(13, 13, 13);
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+}
+
+QPushButton:pressed {
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    padding-top: 0.2%;
+}
+
+#botao_laranja {
+    background-color: #fabc00;
+    color: rgb(42, 42, 42);
+}
+
+#botao_laranja:pressed {
+    background-color: #9d7705;
+    color: azure;
+}
+
+#botao_azul {
+    background-color: #5486ff;
+    color: rgb(42, 42, 42);
+}
+#botao_azul:pressed {
+    background-color: #1a3e92;
+    color: azure;
+}
+
+#check {
+    font-size: 15pt;
+}

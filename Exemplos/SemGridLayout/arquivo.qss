@@ -1,0 +1,40 @@
+QWidget {
+    background-color: rgb(55, 53, 69);
+    font-size: 25pt;
+    font-family: Alkatra;
+    color: azure;
+}
+
+#caixa_texto{
+    max-width: 350px;
+}
+
+
+QPushButton#botao {
+    background-color: #6324ab;
+    max-width: 350px;
+    border-style: outset;
+    border-radius: 15px;
+    border-color: rgb(13, 13, 13);
+}
+#botao {
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+}
+
+#botao:pressed {
+    background-color: #4c1c82;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    padding-top: 0.2%;
+}
+
+#texto {
+    qproperty-alignment: 'AlignCenter|AlignVCenter';
+}
+
+#check {
+    font-size: 15pt;
+}
