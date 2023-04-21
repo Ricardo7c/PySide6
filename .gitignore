@@ -2541,3 +2541,4 @@ QTenv/Scripts/pyside6-rcc.exe
 QTenv/Scripts/pyside6-uic.exe
 QTenv/Scripts/python.exe
 QTenv/Scripts/pythonw.exe
+Testes/instaDownload.py
