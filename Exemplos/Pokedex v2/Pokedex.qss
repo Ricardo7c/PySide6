@@ -1,0 +1,33 @@
+QWidget {
+    background-color: #080d21;
+    font-size: 18pt;
+    font-family: Alkatra, Bold;
+    color: rgb(255, 255, 255);
+}
+QPushButton#botao {
+    background-color: #4b6bd6;
+}
+QPushButton#botao:pressed {
+    background-color: #2c3e7d;
+}
+QPushButton {
+    border-style: outset;
+    border-radius: 15px;
+    border-color: rgb(13, 13, 13);
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+}
+QPushButton:pressed {
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    padding-top: 0.2%;
+}
+QLineEdit {
+    max-height: 35px;
+}
+
+QLabel#info {
+    font-size: 13pt;
+}

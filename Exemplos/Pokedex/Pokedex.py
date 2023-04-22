@@ -38,7 +38,6 @@ def textBox():
     return caixa_texto.text().lower()
 
 
-
 # Caixa de texto
 caixa_texto = QLineEdit()
 layout.addWidget(caixa_texto, 0, 0, 1, 2)
@@ -59,8 +58,7 @@ pixmap = QPixmap('Exemplos/Pokedex/pokebola.png').scaled(415,450)
 imagem.setScaledContents(True)
 imagem.setPixmap(pixmap)
 layout.addWidget(imagem, 1, 0, 1, 3)
-layout.setRowStretch(415,384)
-
+layout.setRowStretch(1,384)
 
 
 # Folha de estilo
@@ -68,7 +66,7 @@ with open("Exemplos/Pokedex/Pokedex.qss", "r") as arquivo:
     qss = arquivo.read()
 
 janela.setStyleSheet(qss)
-janela.setWindowTitle('Pokedex')
+janela.setWindowTitle('Pokedex v1.0')
 janela.setWindowIcon(pixmap)
 janela.setFixedSize(500,550)
 #janela.setFixedWidth(500)
